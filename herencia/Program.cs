@@ -31,7 +31,7 @@ namespace herencia
             Console.WriteLine("Color :" + ESTUDIANTE.Color);
             Console.WriteLine("Carrera :" + ESTUDIANTE.Carrera);
            
-
+            //guardar cambios
         }
         
     }
