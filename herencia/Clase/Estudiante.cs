@@ -6,18 +6,24 @@ using System.Threading.Tasks;
 
 namespace herencia.Clase
 {
-    public class Estudiante
+    public class Estudiante : Persona
     {
         private string carrera;
         private decimal promedio;
 
-        public Estudiante(string carrera, decimal promedio ,int id, string cedula, string nombres, string apellido, int edad, string color, string cargo, decimal salario) : base (id, cedula, nombres, apellido, edad, color)
+
+
+
+        public Estudiante(int id, string cedula, string nombres, string apellidos, int edad, string color, string carrera, decimal promedio) : base (id, cedula, nombres, apellidos, edad, color)
         {
             this.carrera = carrera;
             this.promedio = promedio;
-        }
+        }                                                                                                                           
         public string Carrera { get => carrera; }
         public decimal Promedio { get => promedio; }
+        public string Carrera1 { get => carrera; }
+        public decimal Promedio1 { get => promedio; }
+
 
     }
 }

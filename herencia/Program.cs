@@ -17,10 +17,21 @@ namespace herencia
             Console.WriteLine("NOMBRES:"+EMPLEADO.Nombres);
             Console.WriteLine("APELLIDOS:"+EMPLEADO.Apellido);
             Console.WriteLine("EDAD:"+EMPLEADO.Edad);
-            Console.WriteLine("COLOR:"+EMPLEADO.Color);
-            Console.WriteLine("CARGO:"+((Empleado)EMPLEADO).Cargo);
-            Console.WriteLine("SALARIO:"+((Empleado)EMPLEADO).Salario);
+            Console.WriteLine("COLOR:"+EMPLEADO.Cargo);
+            Console.WriteLine("SALARIO:"+EMPLEADO.Salario);
             Console.ReadKey();
+
+            Estudiante ESTUDIANTE = new Estudiante (2, "0930344742", "LUIS ENRIQUE ", "HUREL HERMENEGILDO", 21, "MADERA", "Desarrollo de Software",6);
+
+            Console.WriteLine("ID :" + ESTUDIANTE.Id);
+            Console.WriteLine("Cédula :" + ESTUDIANTE.Cedula);
+            Console.WriteLine("Nombres :" + ESTUDIANTE.Nombres);
+            Console.WriteLine("Apellidos :" + ESTUDIANTE.Apellido);
+            Console.WriteLine("Edad :" + ESTUDIANTE.Edad);
+            Console.WriteLine("Color :" + ESTUDIANTE.Color);
+            Console.WriteLine("Carrera :" + ESTUDIANTE.Carrera);
+           
+
         }
         
     }
